@@ -3,8 +3,6 @@
 #define fech 40000 // Fréquence d'échantillonnage souhaitée
 #define NB_COEFF 21 // Nombre de coefficients du filtre RIF
 
-// pour la convolution avec pile glissante
-
 Serial pc(USBTX, USBRX);
 
 AnalogIn entree_analogique(PC_3); // A2 connecteur Arduino
